@@ -1,37 +1,63 @@
-# A Combinatorics Problem
+# Core Python: Practical Tasks & Projects
 
-A Python program that calculates the number of possible ways to choose a specific number of students from a class.
+This repository tracks my journey in learning Python fundamentals. It serves as a structured collection of programs, exercises, and algorithmic challenges, ranging from basic syntax to object-oriented logic and exceptions.
 
-## What It Does
+---
 
-1. **Encapsulated Logic:** Asks the user to enter the total number of students and the number of students to be chosen. This is wrapped inside a highly reusable function.
-2. **Input Validation Loop:** Runs a continuous loop that prompts the user until valid inputs are provided.
-3. **Type Checking:** Verifies that the entered values are integers.
-4. **Value Validation:** Ensures the numbers are realistic (e.g., non-negative, and the number of chosen students does not exceed the total class size).
-5. **Combinatorics Calculation:** Computes the total number of possible combinations.
-6. **Output:** Prints the final result.
-7. ## Installation & Usage
->>>>>>> 2c4530c1904e66a60d1f15d2e31ffe9e315a2b1c
+## Project Catalog
 
-1. Clone the repository:
-   ```bash
-   git clone github.com
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd A-combinatorics-problem
-   ```
-3. Run the script:
-2. Set up a virtual environment:
-   ```bash
-   python -m venv .venv
-   source .venv/bin/activate  # On Windows use: .venv\Scripts\activate
-   ```
-3. Install dependencies (if any):
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Run the program:
-   ```bash
-   python task_class.py
-   ```
+Each subdirectory focuses on a specific Python concept or a standalone practical problem. Click on the project name to view its detailed documentation and source code:
+
+
+| Project Directory | Core Topic / Concepts Applied | Status | Description |
+| :--- | :--- | :---: | :--- |
+| [combinatorics_task](./combinatorics_task) | Math algorithms, Input Validation, Loops | `Done` | Calculates possible combinations for selecting students. |
+| [function_practice](./function_practice) | Encapsulation, Scopes, Arguments, Return values | `In Progress` | Deep dive into clean function architecture. |
+| [volume_calculator](./volume_calculator) | `math` module, Type casting, Exception handling | `Planned` | Computes geometric parameters (e.g., cup volume). |
+
+*To add a new project, simply create a folder, add your `.py` file, and log it in the table above.*
+
+---
+
+## Global Installation & Setup
+
+All projects in this repository are managed under a single unified virtual environment. Follow these steps to set up and run any script locally:
+
+### 1. Clone the Repository
+```bash
+git clone github.com
+cd A-combinatorics-problem
+```
+
+### 2. Set Up the Virtual Environment
+Create and activate the environment based on your Operating System:
+* **Windows (PowerShell):**
+  ```powershell
+  python -m venv .venv
+  .venv\Scripts\Activate.ps1
+  ```
+* **Linux / macOS:**
+  ```bash
+  python3 -m venv .venv
+  source .venv/bin/activate
+  ```
+
+### 3. Install Shared Dependencies
+Install any required external packages (if specified in the project folders):
+```bash
+pip install -r requirements.txt
+```
+
+### 4. How to Execution Any Task
+You can execute any script directly from the root directory by specifying its path:
+```bash
+python combinatorics_task/task_class.py
+```
+
+---
+
+## Learning Roadmap & Goals
+- [x] Implement robust user input validation loops.
+- [x] Isolate system files (`.venv`, `pyvenv.cfg`) using clean global `.gitignore`.
+- [ ] Master Python exceptions (`try/except/finally`) for mathematical edge cases.
+- [ ] Explore data visualization using external libraries (e.g., matplotlib).
