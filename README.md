@@ -11,7 +11,6 @@ A Python program that calculates the number of possible ways to choose a specifi
 5. **Combinatorics Calculation:** Computes the total number of possible combinations.
 6. **Output:** Prints the final result.
 7. ## Installation & Usage
->>>>>>> 2c4530c1904e66a60d1f15d2e31ffe9e315a2b1c
 
 1. Clone the repository:
    ```bash

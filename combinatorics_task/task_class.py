@@ -31,8 +31,10 @@ def combination():
         else:
             break
 
-    result = math.comb(all_students, chosen_students)
-    print(f"There are {result} possible combinations")
+    if __name__ == "__main__":
+        result = math.comb(all_students, chosen_students)
+        print(f"There are {result} possible combinations")
+
 
 # Use function
 combination()
