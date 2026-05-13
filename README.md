@@ -1,19 +1,17 @@
-# A Combinatorics Problem 🧮
+# A Combinatorics Problem
 
-A simple and robust Python console application that calculates the number of unique student combinations for a school event using mathematical principles.
+A Python program that calculates the number of possible ways to choose a specific number of students from a class.
 
-## 📋 Problem Description
-There is a certain number of students in a class. On Tuesday, an inspection is scheduled to visit the school. Therefore, a group of students is required to serve as "extras." The identity of the students does not matter. **How many ways are there to select students for the event?**
+## What It Does
 
-## 🚀 Features
-- **Input Validation:** Restricts input to integers between 1 and 50.
-- **Error Handling:** Prevents crashes from invalid characters, empty inputs, or logical errors (e.g., choosing more students than available).
-- **Efficient Math:** Utilizes Python's built-in `math.comb()` for precise calculations.
-
-## 🛠️ Requirements
-- Python 3.8 or higher
-
-## 📦 Installation & Running
+1. **Encapsulated Logic:** Asks the user to enter the total number of students and the number of students to be chosen. This is wrapped inside a highly reusable function.
+2. **Input Validation Loop:** Runs a continuous loop that prompts the user until valid inputs are provided.
+3. **Type Checking:** Verifies that the entered values are integers.
+4. **Value Validation:** Ensures the numbers are realistic (e.g., non-negative, and the number of chosen students does not exceed the total class size).
+5. **Combinatorics Calculation:** Computes the total number of possible combinations.
+6. **Output:** Prints the final result.
+7. ## Installation & Usage
+>>>>>>> 2c4530c1904e66a60d1f15d2e31ffe9e315a2b1c
 
 1. Clone the repository:
    ```bash
@@ -24,13 +22,16 @@ There is a certain number of students in a class. On Tuesday, an inspection is s
    cd A-combinatorics-problem
    ```
 3. Run the script:
+2. Set up a virtual environment:
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate  # On Windows use: .venv\Scripts\activate
+   ```
+3. Install dependencies (if any):
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Run the program:
    ```bash
    python task_class.py
    ```
-
-## 💻 Usage Example
-```text
-Enter the total number of students in the class: 25
-Enter the number of students to be chosen: 5
-There are 53130 possible combinations.
-```
