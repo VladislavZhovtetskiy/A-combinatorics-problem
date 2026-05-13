@@ -10,5 +10,24 @@ A Python program that calculates the number of possible ways to choose a specifi
 4. **Value Validation:** Ensures the numbers are realistic (e.g., non-negative, and the number of chosen students does not exceed the total class size).
 5. **Combinatorics Calculation:** Computes the total number of possible combinations.
 6. **Output:** Prints the final result.
+7. ## Installation & Usage
+
+1. Clone the repository:
+   ```bash
+   git clone github.com
+   ```
+2. Set up a virtual environment:
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate  # On Windows use: .venv\Scripts\activate
+   ```
+3. Install dependencies (if any):
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Run the program:
+   ```bash
+   python task_class.py
+   ```
 
 After execution, you can call the function anytime to get the number of possible variations.
