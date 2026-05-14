@@ -9,8 +9,8 @@ Each subdirectory focuses on a specific Python concept or a standalone practical
 | Project Directory                          | Core Topic / Concepts Applied                   |    Status     | Description                                              |
 | :----------------------------------------- | :---------------------------------------------- | :-----------: | :------------------------------------------------------- |
 | [combinatorics_task](./combinatorics_task) | Math algorithms, Input Validation, Loops        |    `Done`     | Calculates possible combinations for selecting students. |
-| [water_balance](./function_practice)   | Encapsulation, Scopes, Arguments, Return values | `Done` | Calculate necessery volume for 1 human.              |
-| [volume_calculator](./volume_calculator)   | `math` module, Type casting, Exception handling |   `Planned`   | Computes geometric parameters (e.g., cup volume).        |
+| [water_balance](./water_balance)   | Encapsulation, Scopes, Arguments, Return values | `Done` | Calculate necessery volume for 1 human.              |
+| [geometry_problem](./geometry_problem)   | `math` module, Type casting, Exception handling |   `Done`   | Computes geometric parameters (e.g., volume and area).        |
 
 _To add a new project, simply create a folder, add your `.py` file, and log it in the table above._
 
