@@ -12,6 +12,7 @@ Each subdirectory focuses on a specific Python concept or a standalone practical
 | [water_balance](./water_balance)   | Encapsulation, Scopes, Arguments, Return values | `Done` | Calculate necessery volume for 1 human.              |
 | [geometry_problem](./geometry_problem)   | `math` module, Type casting, Exception handling |   `Done`   | Computes geometric parameters (e.g., volume and area).        |
 | [nutrients](./nutrients)   | Type casting, Exception handling, Dictionary |   `Done`   | Daily kilocalorie requirement calculated using the Mifflin-St Jeor formula.        |
+| [random_password](./random_password)   | Dictionary, Lists, For loop, Random |   `Done`   | Easy password generator for terminal.        |
 
 
 ---
