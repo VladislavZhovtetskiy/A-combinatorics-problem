@@ -12,7 +12,7 @@ A Python program that takes a string of symbols from the user, shuffles them ran
 ## How to Run (Quick Start)
 Make sure you are in the project root and your virtual environment is active, then run:
 ```bash
-python password_generator/generator.py
+python random_password/random_password.py
 
 
 
